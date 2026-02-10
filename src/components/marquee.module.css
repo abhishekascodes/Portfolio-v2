@@ -1,0 +1,40 @@
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    padding: var(--space-m) 0;
+    border-top: 1px solid var(--divider);
+    border-bottom: 1px solid var(--divider);
+    user-select: none;
+}
+
+.track {
+    display: flex;
+    width: max-content;
+    animation: marquee linear infinite;
+}
+
+.text {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5vw, 5rem);
+    font-weight: var(--fw-black);
+    letter-spacing: var(--ls-tight);
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding-right: 0;
+}
+
+/* ── Variants ── */
+.default .text {
+    color: var(--text-faint);
+}
+
+.outline .text {
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-faint);
+}
+
+.gold .text {
+    color: transparent;
+    -webkit-text-stroke: 1px var(--accent);
+    opacity: 0.4;
+}

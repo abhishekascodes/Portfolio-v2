@@ -1,0 +1,102 @@
+/* ================================================================
+   DESIGN TOKENS — Silver Noir
+   Premium cool palette: obsidian base, silver text, violet accent
+   ================================================================ */
+
+:root {
+    /* ── Colors ── */
+    --bg-primary: #08080C;
+    --bg-secondary: #0E0E14;
+    --bg-tertiary: #14141C;
+    --bg-elevated: #1A1A24;
+    --bg-card: #111118;
+
+    --text-primary: #F4F4F5;
+    --text-secondary: #A1A1AA;
+    --text-muted: #52525B;
+    --text-faint: #2E2E36;
+
+    --accent: #818CF8;
+    --accent-dim: rgba(129, 140, 248, 0.10);
+    --accent-glow: rgba(129, 140, 248, 0.20);
+    --accent-line: rgba(129, 140, 248, 0.30);
+    --accent-hover: #A5B4FC;
+    --accent-deep: #6366F1;
+
+    --divider: rgba(244, 244, 245, 0.05);
+    --divider-strong: rgba(244, 244, 245, 0.10);
+    --border-subtle: rgba(244, 244, 245, 0.04);
+    --border-card: rgba(244, 244, 245, 0.06);
+
+    /* ── Typography ── */
+    --font-display: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    --fs-hero: clamp(4rem, 10vw, 10rem);
+    --fs-display: clamp(3rem, 7vw, 7rem);
+    --fs-h1: clamp(2.2rem, 4.5vw, 4.5rem);
+    --fs-h2: clamp(1.6rem, 3vw, 3rem);
+    --fs-h3: clamp(1.2rem, 2vw, 1.75rem);
+    --fs-body-lg: clamp(1.0625rem, 1.3vw, 1.25rem);
+    --fs-body: clamp(0.9375rem, 1.1vw, 1.0625rem);
+    --fs-small: clamp(0.8125rem, 0.95vw, 0.9375rem);
+    --fs-caption: clamp(0.6875rem, 0.85vw, 0.8125rem);
+    --fs-overline: 0.6875rem;
+
+    --fw-thin: 200;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-black: 900;
+
+    --lh-tight: 1.05;
+    --lh-snug: 1.2;
+    --lh-normal: 1.55;
+    --lh-relaxed: 1.75;
+
+    --ls-ultra: -0.05em;
+    --ls-tight: -0.025em;
+    --ls-normal: 0em;
+    --ls-wide: 0.05em;
+    --ls-wider: 0.12em;
+    --ls-widest: 0.2em;
+
+    /* ── Spacing ── */
+    --space-2xs: 0.375rem;
+    --space-xs: 0.5rem;
+    --space-s: 1rem;
+    --space-m: 1.5rem;
+    --space-l: 2.5rem;
+    --space-xl: 4rem;
+    --space-2xl: 6rem;
+    --space-3xl: 10rem;
+
+    --section-gap: clamp(6rem, 12vw, 12rem);
+    --max-width: 1400px;
+
+    /* ── Borders ── */
+    --radius-s: 6px;
+    --radius-m: 10px;
+    --radius-l: 16px;
+    --radius-xl: 24px;
+
+    /* ── Motion ── */
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+    --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+    --dur-fast: 0.2s;
+    --dur-normal: 0.4s;
+    --dur-slow: 0.7s;
+    --dur-slower: 1.2s;
+
+    /* ── Z-index ── */
+    --z-base: 1;
+    --z-card: 10;
+    --z-nav: 100;
+    --z-overlay: 200;
+    --z-modal: 1000;
+}

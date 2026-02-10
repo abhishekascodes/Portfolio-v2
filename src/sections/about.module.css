@@ -1,0 +1,179 @@
+.about {
+    padding: var(--section-gap) 0;
+    background: var(--bg-secondary);
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-l);
+}
+
+/* ── Top Row ── */
+.topRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--space-2xl);
+    margin-bottom: var(--space-xl);
+}
+
+.labelBlock {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.sectionNum {
+    font-family: var(--font-mono);
+    font-size: var(--fs-overline);
+    color: var(--accent);
+    letter-spacing: var(--ls-widest);
+}
+
+.sectionTitle {
+    font-family: var(--font-display);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-black);
+    letter-spacing: var(--ls-ultra);
+    line-height: var(--lh-tight);
+}
+
+.labelLine {
+    width: 40px;
+    height: 2px;
+    background: var(--accent);
+}
+
+/* ── Pull Quote ── */
+.pullQuote {
+    font-family: var(--font-display);
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-light);
+    color: var(--text-secondary);
+    line-height: var(--lh-snug);
+    max-width: 540px;
+    border-left: 2px solid var(--accent);
+    padding-left: var(--space-m);
+    font-style: italic;
+}
+
+.accentText {
+    color: var(--accent);
+    font-weight: var(--fw-medium);
+    font-style: normal;
+}
+
+/* ── Bio Grid ── */
+.bioGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-l);
+    margin-bottom: var(--space-l);
+}
+
+.paragraph {
+    font-size: var(--fs-body);
+    color: var(--text-secondary);
+    line-height: var(--lh-relaxed);
+}
+
+/* ── Dot Divider ── */
+.dotDivider {
+    display: flex;
+    align-items: center;
+    gap: var(--space-s);
+    margin: var(--space-l) 0;
+}
+
+.divLine {
+    flex: 1;
+    height: 1px;
+    background: var(--divider);
+}
+
+.divDot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--accent);
+}
+
+/* ── Bottom Row ── */
+.bottomRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--space-xl);
+}
+
+/* ── Traits ── */
+.traits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.trait {
+    font-family: var(--font-mono);
+    font-size: var(--fs-caption);
+    color: var(--text-muted);
+    border: 1px solid var(--border-card);
+    padding: 8px 18px;
+    border-radius: var(--radius-s);
+    cursor: default;
+    letter-spacing: var(--ls-wide);
+    display: block;
+    transition: all 0.3s ease;
+}
+
+/* ── Stats ── */
+.stats {
+    display: flex;
+    gap: var(--space-xl);
+}
+
+.statItem {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+}
+
+.statNumber {
+    font-family: var(--font-display);
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-bold);
+    color: var(--accent);
+    line-height: 1;
+}
+
+.statLabel {
+    font-family: var(--font-mono);
+    font-size: var(--fs-overline);
+    color: var(--text-muted);
+    letter-spacing: var(--ls-wider);
+    text-transform: uppercase;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+    .topRow {
+        flex-direction: column;
+        gap: var(--space-l);
+    }
+
+    .bioGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .bottomRow {
+        flex-direction: column;
+        gap: var(--space-l);
+    }
+
+    .stats {
+        gap: var(--space-l);
+    }
+}

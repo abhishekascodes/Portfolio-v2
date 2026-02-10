@@ -1,0 +1,106 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: var(--z-nav);
+    padding: var(--space-s) var(--space-l);
+    transition: background 0.4s ease, backdrop-filter 0.4s ease;
+}
+
+.nav.scrolled {
+    background: rgba(10, 10, 10, 0.85);
+    backdrop-filter: blur(20px) saturate(180%);
+    border-bottom: 1px solid var(--divider);
+}
+
+.inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-l);
+}
+
+/* ── Logo ── */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-family: var(--font-display);
+    font-size: var(--fs-body-lg);
+    font-weight: var(--fw-bold);
+    color: var(--text-primary);
+    letter-spacing: var(--ls-tight);
+    text-decoration: none;
+}
+
+.logoMark {
+    color: var(--accent);
+}
+
+.logoText {
+    opacity: 0.9;
+}
+
+/* ── Links ── */
+.links {
+    display: flex;
+    gap: var(--space-l);
+}
+
+.link {
+    font-family: var(--font-body);
+    font-size: var(--fs-small);
+    font-weight: var(--fw-medium);
+    color: var(--text-secondary);
+    text-decoration: none;
+    letter-spacing: var(--ls-wide);
+    text-transform: uppercase;
+    transition: color var(--dur-fast) ease;
+    position: relative;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: var(--accent);
+    transition: width 0.3s var(--ease-out-expo);
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+/* ── CTA ── */
+.cta {
+    font-family: var(--font-body);
+    font-size: var(--fs-small);
+    font-weight: var(--fw-medium);
+    color: var(--bg-primary);
+    background: var(--accent);
+    padding: 10px 24px;
+    border-radius: var(--radius-s);
+    text-decoration: none;
+    letter-spacing: var(--ls-wide);
+    transition: background var(--dur-fast) ease;
+}
+
+.cta:hover {
+    background: var(--accent-hover);
+}
+
+@media (max-width: 768px) {
+    .links {
+        display: none;
+    }
+
+    .nav {
+        padding: var(--space-xs) var(--space-s);
+    }
+}

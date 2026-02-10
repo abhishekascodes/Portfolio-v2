@@ -1,0 +1,36 @@
+.footer {
+    padding: var(--space-l) 0;
+    background: var(--bg-primary);
+    border-top: 1px solid var(--divider);
+}
+
+.inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-l);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy {
+    font-family: var(--font-mono);
+    font-size: var(--fs-caption);
+    color: var(--text-muted);
+    letter-spacing: var(--ls-wider);
+}
+
+.made {
+    font-family: var(--font-mono);
+    font-size: var(--fs-caption);
+    color: var(--text-faint);
+    letter-spacing: var(--ls-wide);
+}
+
+@media (max-width: 640px) {
+    .inner {
+        flex-direction: column;
+        gap: var(--space-xs);
+        text-align: center;
+    }
+}

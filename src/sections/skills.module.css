@@ -1,0 +1,126 @@
+.skills {
+    padding: var(--section-gap) 0;
+    background: var(--bg-primary);
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-l);
+}
+
+/* ── Header — centered ── */
+.header {
+    text-align: center;
+    margin-bottom: var(--space-2xl);
+}
+
+.sectionNum {
+    font-family: var(--font-mono);
+    font-size: var(--fs-overline);
+    color: var(--accent);
+    letter-spacing: var(--ls-widest);
+    display: block;
+    margin-bottom: var(--space-xs);
+}
+
+.sectionTitle {
+    font-family: var(--font-display);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-black);
+    letter-spacing: var(--ls-ultra);
+    line-height: var(--lh-tight);
+    margin-bottom: var(--space-xs);
+}
+
+.headerSub {
+    font-size: var(--fs-body);
+    color: var(--text-muted);
+    max-width: 480px;
+    margin: 0 auto;
+    line-height: var(--lh-relaxed);
+}
+
+/* ── Masonry Grid ── */
+.masonryGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-s);
+    align-items: start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-s);
+}
+
+/* ── Card ── */
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-card);
+    border-radius: var(--radius-l);
+    padding: var(--space-m);
+    cursor: default;
+    transition: border-color 0.3s ease;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: var(--space-s);
+    padding-bottom: var(--space-xs);
+    border-bottom: 1px solid var(--divider);
+}
+
+.cardAccent {
+    width: 3px;
+    height: 16px;
+    background: var(--accent);
+    border-radius: 2px;
+}
+
+.cardTitle {
+    font-family: var(--font-display);
+    font-size: var(--fs-body-lg);
+    font-weight: var(--fw-semibold);
+    color: var(--text-primary);
+    flex: 1;
+}
+
+.cardCount {
+    font-family: var(--font-mono);
+    font-size: var(--fs-overline);
+    color: var(--text-faint);
+    background: var(--bg-elevated);
+    padding: 3px 8px;
+    border-radius: var(--radius-s);
+    letter-spacing: var(--ls-wider);
+}
+
+/* ── Tag Cloud ── */
+.tagCloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag {
+    font-family: var(--font-mono);
+    font-size: var(--fs-caption);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-card);
+    padding: 6px 14px;
+    border-radius: var(--radius-s);
+    cursor: default;
+    letter-spacing: var(--ls-wide);
+    transition: all 0.2s ease;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+    .masonryGrid {
+        grid-template-columns: 1fr;
+    }
+}
