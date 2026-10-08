@@ -1,0 +1,65 @@
+# Abhishek A.S.
+
+> Independent AI systems builder and researcher working across artificial intelligence, autonomous agents, distributed systems, formal methods, control theory, operating systems, and physical hardware.
+
+## Core Identity
+- Name: Abhishek A.S.
+- Role: Independent Systems Builder, AI Researcher, Software Engineer, Hardware Tinkerer
+- Primary Website: https://abhishekas.in
+- GitHub: https://github.com/abhishekascodes
+- Core Philosophy: "I find patterns in everything." First-principles learning, rapid engineering, and cross-domain synthesis bridging theoretical mathematics and physical computing.
+
+## Disciplines & Core Competencies
+- Artificial Intelligence: Autonomous multi-agent systems, AI governance and safety harnesses, universal LLM harnesses, local inference optimization, model routing, reinforcement learning.
+- Formal Methods & Control Theory: Z3 SMT verification, Linear Temporal Logic (LTL), Signal Temporal Logic (STL), Lyapunov stability, Control Barrier Functions, invariant checking.
+- Mathematics: Optimization, probability, graph structures, algebraic topology (Betti numbers), phase transition analysis, cooperative game theory (Shapley values, mechanism design).
+- Distributed Systems: CRDT-based distributed state, Byzantine fault tolerance, deterministic merging, partition handling, distributed transactions with escrow mechanisms.
+- Systems & Low-Level Engineering: Custom operating systems (kernel, memory management, scheduling), runtime engines, compiler design for constrained hardware, Linux internals.
+- Hardware Engineering: Board-level diagnostics using soldering iron and multimeter, salvaged PC assembly, embedded electronics (ESP8266, Raspberry Pi), home automation, custom Android kernels and ROM debugging.
+
+## Key Projects
+
+### POLARIS
+- Role: AI Governance and Sovereign Intelligence Engine
+- Summary: A universal, model-agnostic harness that enforces safety, governance, and provenance constraints on arbitrary LLMs without requiring model retraining.
+- Architecture: Combines multi-agent reasoning with formal verification (Z3), topological and phase-transition analysis, game-theoretic mechanisms, and Byzantine resilience.
+
+### SENTINEL
+- Role: Autonomous Incident Response System
+- Summary: An autonomous SRE architecture employing specialized cooperating agents and tool integrations for incident detection, blast-radius calculation, confidence scoring with temporal decay, and human approval gates.
+
+### ANDROMEDA
+- Role: CRDT-Based Distributed OLTP Engine
+- Summary: A distributed transactional engine exploring how relational invariants (foreign keys, uniqueness via escrow) can be preserved deterministically under network partitions and concurrent writes.
+
+### NEBULA
+- Role: Persistent Context Engine for Autonomous SRE
+- Summary: Transforms raw operational telemetry and incident history into persistent, evolving topological memory for recurring failure diagnosis.
+
+### ZENITH
+- Role: Precision-Controlled Memory Agent
+- Summary: Investigates per-dimension attractor control in agent memory architectures, exploring extensions of attractor dynamics in autonomous agents.
+
+### GARGANTUA
+- Role: Unified Autonomous Intelligence Meta-Architecture
+- Summary: An overarching framework integrating reasoning, governance, memory, infrastructure, distributed state, and autonomous execution layers.
+
+### INDRA
+- Role: Citizen State-Transition Engine for Public Infrastructure
+- Summary: Workflow execution and reconciliation platform designed to survive intermittent service outages with transactional integrity, state resumption, and cryptographic provenance.
+
+### CHIMERA
+- Role: Autonomous Intelligence Architecture
+- Summary: An evolving technical specification for hierarchical agents, multi-model routing, speculative local inference, planning, and verification.
+
+### NEURAL COMPILER
+- Role: Experimental Runtime for Large Workloads on Constrained Hardware
+- Summary: Explores execution optimization, model compression, and runtime efficiency on constrained machines.
+
+### UntitledOS
+- Role: Custom Operating System
+- Summary: An operating system written from scratch covering boot protocols, kernel architecture, memory management, drivers, scheduler, and interactive shell.
+
+## Contact & Links
+- Website: https://abhishekas.in
+- Code: https://github.com/abhishekascodes
