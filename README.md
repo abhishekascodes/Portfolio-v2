@@ -29,6 +29,18 @@ Hosted at: [abhishekas.in](https://abhishekas.in)
 
 ---
 
+## Verifiable Recognitions & Hackathons
+
+- **Meta x PyTorch OpenEnv Hackathon:** Solo Entry, Winner.
+- **Build What Moves India Hackathon:** Selected among Top 250 Finalists, Ranked 45 nationwide (Architecture: INDRA citizen state-transition engine).
+- **Xiaomi MiMo Orbit AI Creator Program:** Selected creator and researcher.
+- **Kerala Police Cyber Division:** Statewide selection internship in cyber systems and defense.
+- **IIT Madras:** Data Science and AI Certification.
+- **Little KITES:** State-level winner.
+- **Robotics Competition, ACE College of Engineering:** First Prize.
+
+---
+
 ## Tech Stack & Architecture
 
 - **UI & Layout:** React 18, Custom Brutalist Design System, Tailwind-free bespoke CSS architecture.
