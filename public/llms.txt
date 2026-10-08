@@ -10,7 +10,7 @@
 - Core Philosophy: "I find patterns in everything." First-principles learning, rapid engineering, and cross-domain synthesis bridging theoretical mathematics and physical computing.
 
 ## Verifiable Recognitions & Awards
-- Meta x PyTorch OpenEnv Hackathon: Solo Entry, Winner.
+- Meta x PyTorch OpenEnv Hackathon: Solo Entry, Top 10 Finalist.
 - Build What Moves India Hackathon: Selected among Top 250 Finalists, Ranked 45 nationwide (Built INDRA citizen state-transition engine).
 - Xiaomi MiMo Orbit AI Creator Program: Selected creator and researcher.
 - Kerala Police Cyber Division: Statewide selection internship.

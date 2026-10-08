@@ -31,7 +31,7 @@ Hosted at: [abhishekas.in](https://abhishekas.in)
 
 ## Verifiable Recognitions & Hackathons
 
-- **Meta x PyTorch OpenEnv Hackathon:** Solo Entry, Winner.
+- **Meta x PyTorch OpenEnv Hackathon:** Solo Entry, Top 10 Finalist.
 - **Build What Moves India Hackathon:** Selected among Top 250 Finalists, Ranked 45 nationwide (Architecture: INDRA citizen state-transition engine).
 - **Xiaomi MiMo Orbit AI Creator Program:** Selected creator and researcher.
 - **Kerala Police Cyber Division:** Statewide selection internship in cyber systems and defense.

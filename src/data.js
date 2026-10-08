@@ -73,7 +73,7 @@ export const workshop = [
 ]
 
 export const record = {
-  'Competitions': [['Meta x PyTorch OpenEnv Hackathon','Solo entry, winner'],['Build What Moves India','Top 250, rank 45'],['Xiaomi MiMo Orbit AI Creator Program','Selected'],['Little KITES','State level winner'],['AI Quiz 2026','Winner'],['IdeaFest, JAIN University','2nd runner up'],['Robotics, ACE College of Engineering','First prize']],
+  'Competitions': [['Meta x PyTorch OpenEnv Hackathon','Solo entry, Top 10'],['Build What Moves India','Top 250, rank 45'],['Xiaomi MiMo Orbit AI Creator Program','Selected'],['Little KITES','State level winner'],['AI Quiz 2026','Winner'],['IdeaFest, JAIN University','2nd runner up'],['Robotics, ACE College of Engineering','First prize']],
   'Leadership': [['Student Police Cadet','Kerala SPC'],['Kerala Police Cyber Division','Internship, statewide selection'],['Atal Tinkering Lab','Showcase leadership'],['Freedom Fest 2022','Speaker at age 15'],['Viksit Bharat Young Leaders Dialogue','National selection']],
   'Learning': [['IIT Madras','Data Science and AI certification'],['Google Cloud Gen AI Academy APAC 2026','Hack2Skill'],['Common Service Centre','Years of hands-on IT support'],['Freelance web work','Sites and hosting for local businesses']],
 }
